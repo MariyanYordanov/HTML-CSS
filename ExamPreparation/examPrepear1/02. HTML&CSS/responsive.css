@@ -1,0 +1,9 @@
+@media all and (max-width: 600px) {
+    .navigation-list,
+    .navigation,
+    .benefits,
+    .info-section,
+    .navigation-list {
+        flex-direction: column;
+    }
+}

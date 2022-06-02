@@ -1,0 +1,247 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://use.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+html {
+    font-family: Noto Sans, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #F0E4E4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F93700;
+    padding: 30px;
+}
+
+    header nav ul {
+        display: flex;
+    }
+
+        header nav ul li {
+            list-style-type: none;
+            margin-right: 20px;
+            padding: 40px;
+        }
+
+            header nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 2em;
+            }
+
+.account::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+header i {
+    padding: 23px 50px;
+    background-color: #B6AFAF;
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+input {
+    padding: 20px 10px;
+    width: 500px;
+    border: none;
+    font-size: 1.5em;
+    color: #B6AFAF;
+}
+
+a.account {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+main {
+    background-color: #F0E4E4;
+}
+
+.four-img, .collection {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.four-img-card-wrapper {
+    width: 20%;
+    margin: auto;
+}
+
+    .four-img-card-wrapper h2 {
+        text-align: center;
+        padding-top: 30px;
+        color: #808586;
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+.collection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.collection h1 {
+    font-size: 6em;
+    font-weight: 400;
+    padding: 40px 40px 0 40px;
+    color: #F93700;
+}
+
+.collection h3 {
+    font-size: 2em;
+    padding: 40px;
+    color: #8E8280;
+}
+
+.collection button {
+    background-color: #F93700;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 2em;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.services {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #CAC3C3;
+}
+
+.services-card {
+    width: 30%;
+    margin: auto;
+}
+
+.services-card-icon {
+    width: 30%;
+    margin: auto;
+    height: 30%;
+    background-color: #E6D6D6;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.services-card h2 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #474253;
+    padding: 40px;
+    text-align: center;
+}
+
+.services-card p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #5F5B5B;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+    background-color: transparent;
+}
+
+.footer-nav-links, .icon-links {
+    display: flex;
+}
+
+    .footer-nav-links h3 {
+        color: #848080;
+        margin-right: 20px;
+    }
+
+.footer-nav-links, .icon-links {
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+    align-items: center;
+}
+
+    .footer-nav-links li, icon-links li {
+        list-style-type: none;
+        font-size: 1.5em;
+    }
+
+    .footer-nav-links a {
+        color: #848080;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to {
+    background-color: #808080;
+    color: #474253;
+    font-size: 2em;
+    padding: 13px 21px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.contact h3 {
+    font-size: 2em;
+    color: #848080;
+    margin: 0 20px;
+}
+
+time {
+    font-size: 1.5em;
+    color: #848080;
+    margin-right: 20px;
+}
+
+.icon-links i {
+    color: #808080;
+    font-size: 2em;
+    margin-left: 20px;
+}

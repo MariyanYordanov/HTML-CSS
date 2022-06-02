@@ -1,0 +1,15 @@
+/* TODO: Add the responsive styles here */
+@media all and (max-width: 600px) {
+    .w3-right, article.w3-col.m6.w3-padding-large.w3-hide-small {
+        width: 0;
+        height: 0;
+    }
+    
+    .w3-col.m6 {
+        width: 100%;
+    }
+
+    article.w3-col.l6.w3-padding-large {
+       box-sizing: initial;
+    }
+}

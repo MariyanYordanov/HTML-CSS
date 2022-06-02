@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.0.0/css/all.css');
+html {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 100px auto;
+    border: 1px solid black;
+}
+
+    .wrapper h1 {
+        background-color: #ECECEC;
+        font-size: 3em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        padding: 20px;
+        color: #4C4C4C;
+        text-align: center;
+    }
+
+        .wrapper h1::before {
+            content: "\f07a";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #4C4C4C;
+            margin-right: 20px;
+        }
+
+.wrapper-container {
+    display: flex;
+}
+
+.wrapper-container-picture {
+    width: 40%;
+    border-right: 1px solid black;
+}
+
+    .wrapper-container-picture h2 {
+        font-size: 2em;
+        font-weight: 500;
+        color: #4C4C4C;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .wrapper-container-picture p {
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #4C4C4C;
+        margin: 40px 20px;
+        text-align: start;
+    }
+
+form {
+    padding: 50px;
+   
+}
+
+select {
+    width: 120%;
+    padding: 20px 200px 10px 200px;
+    border-color: #BBBBBB;
+    border-radius: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2em;
+    border-color: #BBBBBB;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+label {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.book-input-right input {
+    margin-left: 5px;
+}
+
+.book-input, .book-time {
+    display: flex;
+}
+
+.book-time-right, .book-time-left {
+    width: 50%;
+}
+
+    .book-time-right input, .book-time-left input {
+        padding: 10px 150px 10px 10px;
+    }
+
+button {
+    border: none;
+    background-color: #E5494C;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 2em;
+    color: white;
+    margin-left: 20%;
+    align-self: center;
+}
+
+    button:hover {
+        background-color: #CD2F3D;
+        cursor: pointer;
+    }

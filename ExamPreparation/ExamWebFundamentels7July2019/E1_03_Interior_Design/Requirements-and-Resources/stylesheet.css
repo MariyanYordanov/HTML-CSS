@@ -1,0 +1,170 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Abril;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 5px 5px rgba(50, 50, 50, 0.5);
+    padding: 20px;
+}
+
+    .logo h1 {
+        font-size: 5em;
+        margin-bottom: 2em;
+        line-height: 1.5em;
+    }
+
+    .logo p {
+        font-size: 2em;
+    }
+
+        .quote {
+            position: absolute;
+            top: 550px;
+            right: 50px;
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 0 5px 5px rgba(50, 50, 50, 0.5);
+            background: rgb(155,145,138);
+            background: linear-gradient(115deg, rgba(155,145,138,1) 0%, rgba(201,199,198,1) 100%);
+            padding: 20px;
+            font-size: 2em;
+        }
+
+    .quote::before {
+        content: "\22";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 2em;
+        color: #7A7978;
+        margin-left: 400px;
+       }
+
+main {
+    display: flex;
+    margin-top: -600px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.main-information {
+    padding: 70px;
+}
+
+    .main-information h2 {
+        font-size: 4em;
+        margin-bottom: 40px;
+    }
+
+    .main-information p {
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+
+.divider {
+    height: 2px;
+    width: 100%;
+    border-top: 2px solid black;
+    margin: 40px 0;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+    .contact-list p {
+        margin-right: 20px;
+        
+    }
+
+    .contact-list strong {
+        font-style: italic;
+    }
+
+input {
+    padding: 10px 30px 10px 10px;
+    border: none;
+    background-color: #BAB1AD;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 30px 10px 10px;
+    border: none;
+    background-color: #67784D;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.services p::before {
+    content: "\f0a9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1em;
+    color: black;
+    margin-right: 10px;
+}
+
+.statistics {
+    background-color: #BAB1AD;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+    .statistics h2 {
+        font-size: 4em;
+        font-weight: 200;
+        color: white;
+    }
+
+    .statistics p {
+        font-size: 1.5em;
+    }

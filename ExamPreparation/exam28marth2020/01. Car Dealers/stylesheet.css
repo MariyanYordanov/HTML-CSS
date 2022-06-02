@@ -1,0 +1,63 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body
+{
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 40px 200px 40px 200px;
+    padding: 40px;
+}
+
+.wrap {
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+p, h3 {
+    margin-top: 0;
+}
+
+.wrap img {
+    width: 100%;
+    margin-left: 0;
+}
+
+.picture, .content {
+    width: 50%;
+}
+
+    .picture {
+        margin: 40px;
+    }
+
+    .wrap-icon {
+        margin-top: 15px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+.wrap h4 {
+    margin-bottom: 5px;
+}
+
+.content h3, .content p {
+    padding-left: 10px;
+}

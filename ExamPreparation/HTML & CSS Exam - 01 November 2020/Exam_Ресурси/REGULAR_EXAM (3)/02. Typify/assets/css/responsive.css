@@ -1,0 +1,36 @@
+@media all and (max-width: 600px) {
+    section {
+        display: flex;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .banner h2 {
+            width: 100%;
+        }
+
+    input, ul, li, .actions li {
+        width: 100%;
+    }
+
+    .actions li {
+        width: 90%;
+    }
+
+    .button.special {
+        width: 90%;
+        
+    }
+        .features {
+            align-items: center;
+            flex-direction: column;
+        }
+
+    .grid-form {
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,265 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.0.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+html {
+    font-family: PT Sans,sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+header {
+    position: relative;
+    background-blend-mode: color;
+    background: url(image/computer-main.jpg) rgba(0, 0, 0, 0.5) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+}
+
+nav ul {
+    display: flex;
+    font-size: 2.5em;
+    justify-content: space-around;
+    padding-top: 40px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.5);
+}
+
+    nav ul li {
+        list-style-type: none;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+        nav ul li:nth-child(1)::before {
+            content: "\f3e2";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1em;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav ul li:nth-child(2)::before {
+            content: "\f07a";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1em;
+            color: white;
+            margin-right: 20px;
+        }
+
+.hero-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+    .hero-content h1 {
+        font-size: 6em;
+        text-shadow: 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content p {
+        text-shadow: 2px;
+        font-size: 2em;
+        margin: 40px auto;
+    }
+
+    .hero-content button {
+        color: white;
+        background-color: #00D08E;
+        border: none;
+        border-radius: 5px;
+        padding: 13px 21px;
+        font-size: 2em;
+        margin: 40px auto;
+    }
+
+        .hero-content button:hover {
+            border: 3px solid white;
+            background-color: transparent;
+            padding: 10px 18px;
+        }
+
+    .hero-content p a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .hero-content p a::after {
+            content: "\f0a9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1em;
+            color: white;
+            margin-left: 20px;
+        }
+
+.what, .perfect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfect-img {
+    width: 50%;
+}
+
+.what-img {
+    width: 61%;
+}
+
+.perfect-img {
+    margin-left: 40px;
+}
+
+.what-img {
+    margin-right: 100px;
+}
+
+.what-content {
+    padding: 100px 100px 100px 0;
+}
+
+
+    .what-content h2 {
+        font-size: 4em;
+    }
+
+    .what-content h5 {
+        margin: 50px 0;
+        font-size: 3em;
+    }
+
+    .what-content p {
+        margin: 20px 0;
+        font-size: 2em;
+        flex-basis: 50%;
+    }
+
+        .what-content p::before {
+            content: "\f058";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            font-size: 1em;
+            color: #00D08E;
+            margin-right: 20px;
+        }
+
+.perfect-content h2 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.perfect-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 80px 80px;
+}
+
+    .perfect-container h2 {
+        text-align: center;
+        font-size: 4em;
+    }
+
+.perfect-icon-card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-card {
+    width: 25%;
+    height: 30%;
+    margin: 80px 40px 0px 0px;
+}
+
+    .icon-card h4 {
+        font-size: 2em;
+        margin-top: 40px;
+        color: #00D08E;
+    }
+
+.icon-card-img {
+    width: 150px;
+}
+
+footer {
+    background-color: #B2F1DD;
+    padding: 100px;
+    text-align: center;
+}
+
+    footer h2 {
+        font-size: 4em;
+        margin: 40px 0;
+    }
+
+.questions h3 {
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+}
+
+.container-questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.questions {
+    width: 30%;
+    padding: 60px;
+}
+
+    .questions p {
+        font-size: 1.5em;
+    }
+
+    .questions h3 {
+        font-size: 2.5em;
+    }
+
+footer p {
+    font-size: 1.5em;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+}

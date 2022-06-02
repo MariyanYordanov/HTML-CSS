@@ -1,0 +1,292 @@
+﻿@import url('https://use.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+
+html {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+    header h2 {
+        font-size: 2em;
+    }
+
+mark {
+    background-color: transparent;
+    color: #21A2B5;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 1.5em;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+            nav ul li a:hover {
+                border-bottom: 5px solid #21A2B5;
+            }
+
+.hero-bg-img {
+    background: url(images/slide2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    transform: translate(-80%, -50%);
+    text-align: start;
+    top: 50%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 50px;
+}
+
+    .hero-content h1 {
+        color: white;
+        font-size: 4em;
+        font-weight: 400;
+    }
+
+    .hero-content button {
+        color: white;
+        background-color: #008CBA;
+        font-size: 2em;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+.welcome, services {
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+    color: #454545;
+    text-align: center;
+}
+
+    .welcome h2, .services h2, .newsletter h2 {
+        text-align: center;
+        font-size: 4em;
+        font-weight: 400;
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+        .welcome h2::after {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            margin-left: -110px;
+            content: "";
+            border-top: 5px solid #008CBA;
+            height: 5px;
+            width: 240px;
+        }
+
+    .welcome p, services p {
+        font-size: 1.5em;
+        text-align: center;
+        color: #454545;
+    }
+
+    .welcome button {
+        color: white;
+        background-color: #454545;
+        font-size: 2em;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 50px;
+        margin-top: 80px;
+    }
+
+.services h2::after {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -110px;
+    content: "";
+    border-top: 5px solid #454545;
+    height: 5px;
+    width: 240px;
+}
+
+.services-wrapper {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-card {
+    width: 30%;
+    text-align: center;
+}
+
+.services-card-img {
+    border: 10px 10px 0 0;
+}
+
+    .services-card-img img {
+        border: 10px 10px 0 0;
+    }
+
+.services-card h3 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 40px;
+    color: #454545;
+}
+
+.services-card p {
+    font-size: 1.5em;
+    margin: 20px;
+    color: #454545;
+}
+
+.services-card button {
+    color: white;
+    background-color: #454545;
+    font-size: 2em;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.newsletter {
+    background-color: #393F43;
+    color: white;
+    padding: 100px;
+}
+
+    .newsletter h2::after {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        margin-left: -110px;
+        content: "";
+        border-top: 5px solid white;
+        height: 5px;
+        width: 240px;
+    }
+
+    .newsletter h4 {
+        font-size: 2em;
+        text-align: center;
+        margin: 80px 0;
+    }
+
+.newsletter-subscribe {
+    text-align: center;
+    margin: 40px 0;
+}
+
+    .newsletter-subscribe input {
+        padding: 20px 580px 20px 10px;
+        font-size: 1.5em;
+        background-color: #545A5E;
+        margin-bottom: 80px;
+        font-style: italic;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .newsletter-subscribe button {
+        color: white;
+        background-color: #6BBFFF;
+        font-size: 2em;
+        padding: 16px 40px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+.footer-wrapper {
+    color: white;
+    background-color: #2F3539;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    footer nav ul li {
+        list-style-type: none;
+        margin: 20px 0;
+    }
+
+        footer nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            margin-left: 50px;
+            padding-bottom: 10px;
+            font-weight: 400;
+        }
+
+.footer-nav-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    background-color: #262B2F;
+    padding: 30px;
+    color: white;
+}

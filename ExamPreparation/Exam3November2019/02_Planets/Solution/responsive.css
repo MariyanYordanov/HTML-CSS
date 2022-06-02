@@ -1,0 +1,22 @@
+@media all and (max-width: 1000px){
+    .pair {
+        flex-wrap: wrap;
+        
+    }
+
+    .planet {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .pair {
+        flex-wrap: wrap;
+    }
+
+    .planet {
+        width: 80%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,101 @@
+﻿
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #69C1FF;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    color: #F5FBFF;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.data {
+    display: flex;
+}
+
+.time {
+    margin-right: 30px;
+}
+
+.time::before {
+    content: url(images/calendar.svg);
+    margin-right: 5px;
+}
+
+.time-read::before {
+    content: url(images/time.svg);
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    margin-left: 5px;
+}
+
+button {
+    width: 250px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}

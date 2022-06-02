@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/19a5c117c1.js" crossorigin="anonymous"></script>
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <section class="wrapper">
+        <form action="/" method="post">
+            <h1>Form</h1>
+            <label for="name"><mark>*</mark>Name:</label>
+            <section class="icon-input-wrap">
+                <i class="fas fa-users"></i><input type="text" name="fname" placeholder="Dario Petrov" class="user" />
+            </section>
+            <label for="email"><mark>*</mark>Email:</label>
+            <section class="icon-input-wrap">
+                <i class="fas fa-envelope"></i> <input type="email" name="email" placeholder="dario@email.com" />
+            </section>
+            <label for="phone"><mark>*</mark>Phone number:</label>
+            <section class="icon-input">
+                <i class="fas fa-phone"></i><input type="tel" name="phone" placeholder="+359 885 445 445" />
+            </section>
+            <label for="Password"><mark>*</mark>Password <small>(minimum 6 characters)</small>:</label>
+            <section class="icon-input-wrap">
+                <i class="fas fa-lock"></i><input type="password" name="password" />
+            </section>
+            <button class="btn">Sign up</button>
+        </form>
+    </section>
+</body>
+</html>

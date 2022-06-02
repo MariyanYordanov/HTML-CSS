@@ -1,0 +1,91 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: PT Serif, serif;
+    font-size: 1.6em;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    box-shadow: 0 0 21px 13px rgba(50, 50, 50, 0.3);
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.content {
+    padding: 80px;
+    flex-basis: 60%;
+    background-image: url(Requirements-and-Resources/image/image1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+strong {
+    color: #488401;
+    margin-right: 20px;
+}
+
+.content h1 {
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom: 4px dotted #488401;
+    text-align: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    
+}
+
+    .subtitle p {
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .recipe {
+        margin: 120px auto;
+    }
+
+.explanation {
+    margin: 80px auto;
+}
+
+table, td, th, tr{
+    border: 2px solid #488401;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+    table td {
+        padding: 10px 80px;
+        margin: 10px;
+    }
+
+    table th {
+        padding: 10px 80px;
+    }

@@ -1,0 +1,46 @@
+@media all and (max-width: 768px) {
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information-text {
+        display: inline-block;
+        text-align: center;
+        flex: none;
+        width: 90%;
+        margin: auto;
+    }
+
+    .entry-description {
+        width: 100%;
+    }
+
+    .entry-header {
+        background-position: center;
+        background-size: contain;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-form form  p {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .site-form input {
+        width: 100%;
+    }
+
+    .site-form button {
+        margin-left: 0;
+        width: 30%;
+        margin: auto;
+    }
+
+    .site-posts {
+        display: block;
+    }
+}

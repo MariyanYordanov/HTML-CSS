@@ -1,0 +1,24 @@
+@media all and (max-width: 468px) {
+
+    section.options {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    a {
+        display: block;
+    }
+
+    main article {
+        display: flex;
+        flex-direction: column;
+    }
+}

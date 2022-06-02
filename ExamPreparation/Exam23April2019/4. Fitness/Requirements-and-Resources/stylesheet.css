@@ -1,0 +1,245 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: PT Sans, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D01919;
+    padding: 0 50px;
+    color: white;
+    height: 80px;
+    font-size: 1.5em;
+}
+
+    header a {
+        text-decoration: none;
+        color: white;
+        padding: 20px 0;
+    }
+
+    header i {
+        margin-left: 20px;
+    }
+
+.phone a::before {
+    content: "\f3cd";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1em;
+    color: white;
+    margin-right: 10px;
+}
+
+.addres::before {
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1em;
+    color: white;
+    margin-right: 10px;
+}
+
+.hero-nav {
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 50px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+    nav ul li {
+        list-style-type: none;
+        margin-left: 50px;
+        font-size: 1.2em;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+.hero {
+    position: relative;
+    height: 1100px;
+    background-image: url(image/fitness-main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    object-fit: cover;
+}
+
+.hero-content h1 {
+    font-size: 10em;
+    font-family: PT Serif, serif;
+    margin-bottom: 40px;
+}
+
+.hero-content p {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.hero-content img {
+    margin-top: -50px;
+    height: 500px;
+}
+
+button {
+    color: white;
+    background-color: #D01919;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin: 40px 0;
+}
+
+
+.welcome-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.welcome h2, .couches h2 {
+    text-align: center;
+    margin: 100px 100px 0 100px;
+    position: relative;
+    font-size: 4em;
+}
+
+    .welcome h2::after {
+        content: "";
+        position: absolute;
+        display: flex;
+        top: 80px;
+        left: 49%;
+        border: 3px solid #D01919;
+        width: 60px;
+        margin: auto;
+        height: 3px;
+    }
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.welcome-content-icon {
+    width: 150px;
+}
+
+.welcome-content h3 {
+    color: #D01919;
+    font-size: 2em;
+    margin: 40px 0;
+}
+
+.welcome-content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.couches-img img{
+    border-radius: 10px;
+}
+
+.couches h2::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 49%;
+    border: 3px solid #D01919;
+    width: 60px;
+    margin: auto;
+    height: 3px;
+}
+
+.couches-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.couches-card {
+    width: 23%;
+    height: 40%;
+    text-align: center;
+}
+
+    .couches-card h3 {
+        font-size: 2em;
+        margin: 20px 0;
+    }
+
+    .couches-card h4 {
+        font-size: 2em;
+        font-weight: 300;
+        color: #D01919;
+        margin-bottom: 20px;
+    }
+
+        .couches-card p {
+            font-size: 1.2em;
+        }
+
+footer {
+    background-color: #D01919;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+}

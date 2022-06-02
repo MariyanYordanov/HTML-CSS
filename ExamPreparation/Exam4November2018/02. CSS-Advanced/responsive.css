@@ -1,0 +1,42 @@
+@media all and (max-width: 600px) {
+    htmnl, main, body, .left-to-right:first-child {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .left-to-right article {
+        padding-top: 30px;
+    }
+
+    main .left-to-right article {
+        border-radius: 50px;
+        width: 70%;
+        margin: auto;
+        height: auto;
+        padding: 10px 40px;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        flex-direction: column;
+    }
+
+    button {
+        display: none;
+    }
+
+    main .left-to-right article:nth-child(1) {
+        height: auto;
+        border-radius: 50px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form input[type="submit"] {
+       display: flex;
+       align-items: center;
+    }
+}

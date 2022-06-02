@@ -1,0 +1,83 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    font-family: Lato, sans-serif;
+    color: #637181;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: Montserrat, sans-serif;
+
+}
+
+.wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+article{
+    margin: 20px;
+    width: 400px;
+}
+
+.included {
+    background-color: #E3F3FD;
+    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+    .included h2 {
+        font-weight: 500;
+    }
+
+    .included p {
+        margin-bottom: 10px;
+    }
+
+        .included p::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f00c";
+            margin-right: 10px;
+            color: #44A9F8;
+        }
+
+        .included p i {
+            color: #44A9F8;
+        }
+
+.enroll {
+    border-radius: 3px;
+    box-shadow: 0 0 1px 5px #44A9F8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+mark {
+    color: #44A9F8;
+    font-size: 3em;
+    background: none;
+}
+
+.enroll h3 {
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    background-color: #44A9F8;
+    text-transform: uppercase;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}

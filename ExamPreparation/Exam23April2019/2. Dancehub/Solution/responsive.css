@@ -1,0 +1,23 @@
+@media all and (max-width: 800px) {
+    nav, nav ul, .trainings,  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instructors-pic {
+       flex-direction: column;
+    }
+
+    nav p {
+        margin: 20px 0 20px 40px;
+    }
+
+    .trainings div {
+        width: 50%;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+        align-items: normal;
+    }
+}

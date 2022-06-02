@@ -1,0 +1,41 @@
+﻿@media all and (max-width: 600px) {
+
+    #top-bar ul li {
+        display: none;
+    }
+
+    #main-menu ul, nav{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+    }
+
+        #main-menu ul li {
+            border: 2px solid #B3969A;
+            margin: 5px 0;
+            width: 80%;
+            text-align: center;
+        }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left-aside {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+        #left-aside article {
+            border: none;
+        }
+
+    #news, #news article, #right-aside, footer ul, #right-aside {
+        width: 100%;
+    }
+
+}
