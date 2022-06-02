@@ -1,0 +1,34 @@
+﻿html
+{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px 200px;
+}
+
+header {
+    box-sizing: inherit;
+    border-bottom: 1px solid black;
+}
+
+li a {
+    text-decoration: none;
+    color: forestgreen;
+    margin-right: 50px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    text-align: center;
+   
+}
+
+h2 {
+    display: inline-block;
+}

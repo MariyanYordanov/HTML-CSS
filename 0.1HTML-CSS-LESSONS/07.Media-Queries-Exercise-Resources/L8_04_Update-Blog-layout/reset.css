@@ -1,0 +1,39 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+	background-color: rgb(238, 238, 238);
+	width: 70%;
+	margin: auto;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+
+p.site-title {
+	text-transform: uppercase;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+
+img {
+	background-color: rgb(255, 255, 255);
+}
+
+article {
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 153, 0);
+}
+
+.last-para {
+	padding-top: 10px;
+}
+
+.first-para {
+	padding-top: 10px;
+}

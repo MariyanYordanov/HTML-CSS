@@ -1,0 +1,198 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px 80px;
+    background-color: white;
+    z-index: 3;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: baseline;
+}
+
+    .nav-menu li {
+        list-style-type: none;
+        margin: 0 5px;
+    }
+
+        .nav-menu li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #6A6289;
+            font-weight: bold;
+        }
+
+button {
+    color: #F2EDF4;
+    background-color: #9B5DC6;
+    border-radius: 20px;
+    padding: 8px 21px;
+    border: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.diplom {
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diplom-text {
+    padding-right: 50px;
+}
+
+.diplom-text-note {
+    font-style: italic;
+}
+
+.diplom-images {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.diplom-circle {
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    background-color: #54546D;
+    position: absolute;
+    top: -240px;
+    right: 100px;
+    z-index: -1;
+}
+
+.diplom-search {
+    color: #616178;
+    font-size: 200px;
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    z-index: 1;
+}
+
+.statment {
+    background-color: #14162B;
+    width: 100%;
+    color: white;
+    padding: 80px;
+    position: relative;
+}
+
+.statment-content {
+    padding-right: 600px;
+}
+
+.statment-img {
+    width: 350px;
+    position: absolute;
+    bottom: -60px;
+    right: 250px;
+}
+
+    .statment-img img {
+        width: 100%;
+    }
+
+.career {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: white;
+}
+
+.career-img {
+    width: 800px;
+
+}
+
+    .career-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.career-content {
+    margin-left: 100px;
+    padding-right: 120px;
+}
+
+.career-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.career-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 1px solid #A569C5;
+    color: #A569C5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C2C3A;
+    color: white;
+    padding: 20px 80px;
+}
+
+.all-footer {
+    padding: 0;
+}
+
+.all-footer li {
+    list-style-type: none;
+}
+
+    .all-footer li a {
+        text-decoration: none;
+        color: white;
+        line-height: 1.8;
+    }
+
+    h3 {
+        color: #A569C5;
+    }
+
+.icons {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.icons li {
+    list-style-type: none;
+}

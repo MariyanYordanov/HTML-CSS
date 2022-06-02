@@ -1,0 +1,55 @@
+﻿
+header {
+    flex-basis: 100%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.left-blockquote {
+    flex-basis: 50%;
+}
+
+blockquote {
+    border-left: 3px solid grey;
+    float: right;
+    padding-left: 10px;
+    flex-basis: 50%;
+}
+
+.author {
+    text-align: end;
+}
+
+
+.first-img {
+    float: right;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.25);
+}
+
+.sec-img {
+    float: left;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.25);
+}
+
+main {
+    flex-basis: 70%;
+}
+
+aside {
+    flex-basis: 25%;
+}

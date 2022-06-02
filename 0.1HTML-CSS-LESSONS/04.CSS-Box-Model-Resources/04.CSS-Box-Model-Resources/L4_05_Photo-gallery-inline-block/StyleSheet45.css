@@ -1,0 +1,32 @@
+﻿body {
+    box-sizing: border-box;
+    width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+section {
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+}
+
+ul li {
+    margin: auto;
+    display: inline-block;
+    box-sizing: inherit;
+}
+
+img {
+    display: inline-block;
+    border: 0.4rem;
+    border-block-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: inherit;
+    width: 300px;
+    vertical-align: middle;
+}
+
+

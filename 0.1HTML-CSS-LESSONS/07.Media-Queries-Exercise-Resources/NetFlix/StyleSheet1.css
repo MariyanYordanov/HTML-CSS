@@ -1,0 +1,134 @@
+﻿@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: radial-gradient(circle, rgba(55, 55, 55,0.5) 50%, rgba(0, 0, 0,0.9) 100% ),url(/Workshop/assets/bg.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.sign {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 0;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    color: white;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 200px;
+}
+
+.hero-input {
+    padding: 10px 20px;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    border: 0;
+    background-color: red;
+    font-size: 0.9em;
+    color: white;
+}
+
+form {
+    display: flex;
+}
+
+i {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.hero-btn::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    margin-left: 5px;
+}
+
+section {
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 250px;
+    align-items: center;
+}
+
+.main-img-enjoy, .main-img-download, .main-img-watch {
+    width: 500px;
+}
+
+.main-FAQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    padding: 50px 250px;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}

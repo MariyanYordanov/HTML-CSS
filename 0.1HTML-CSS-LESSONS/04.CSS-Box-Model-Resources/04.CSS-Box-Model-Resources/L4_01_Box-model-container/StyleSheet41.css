@@ -1,0 +1,13 @@
+﻿body
+{
+    padding: 34px;
+}
+
+p {
+    padding: 21px;
+    display:block;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(64, 224, 208);
+}

@@ -1,0 +1,31 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body
+{
+    font-family: Lato;
+    margin:100px;
+}
+
+.first {
+    color: white;
+    background-color: rgb(0, 128, 0);
+}
+
+.second {
+    color: white;
+    background-color: rgb(255, 140, 0);
+}
+
+.button {
+    padding: 8px 13px;
+    margin: 34px;
+    text-decoration-line: none;
+    border-radius: 3px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+p {
+    margin-bottom: 34px;
+}

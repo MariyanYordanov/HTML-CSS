@@ -1,0 +1,40 @@
+﻿
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 80px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    border-radius: 5px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-bottom: 100px;
+}
+
+main {
+    flex-grow: 3;
+    padding-bottom: 250px;
+}
+
+aside {
+    flex-grow: 1;
+    padding-bottom: 250px;
+}
+
+footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-bottom: 50px;
+}

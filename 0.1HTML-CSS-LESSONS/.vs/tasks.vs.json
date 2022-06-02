@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-video",
+      "appliesTo": "L3_04_Buttons-css/video.gif",
+      "type": "launch"
+    }
+  ]
+}
