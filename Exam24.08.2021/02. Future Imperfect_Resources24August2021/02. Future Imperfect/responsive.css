@@ -1,0 +1,50 @@
+@media all and (max-width: 600px) {
+
+    #header {
+        }
+
+    .post {
+        padding: 0;
+    }
+
+    .post header {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .author .name {
+        display: none;
+    }
+
+    .author img {
+        margin: auto;
+    }
+
+    .post > header .title {
+        padding: 0;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    ul.actions {
+        order: 2;
+    }
+
+    ul.stats {
+        order: 1;
+    }
+
+    .pagination {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .previous {
+        margin-bottom: 20px;
+    }
+}

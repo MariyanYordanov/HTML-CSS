@@ -1,0 +1,347 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+
+a {
+   text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+marquee {
+    display: flex;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+    font-size: 1em;
+    
+}
+
+    marquee:hover {
+        background-color: aquamarine;
+        width: 60%;
+        color: dimgray;
+        font-size: 1.5em;
+        padding: 4px;
+        cursor: pointer;
+    }
+
+    marquee a {
+        color: black;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 200px;
+    margin: 40px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0;
+}
+
+    header nav ul li {
+        margin-left: 40px;
+        display: inline-block;
+        padding: 40px 0;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+    color: #222222;
+}
+
+    nav ul li a:hover {
+        color: #E12454;
+    }
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    filter: blur(2px);
+    background-blend-mode: color-burn;
+    background: url(images/bg.jpg) no-repeat rgba(50, 75, 125, 0.9);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    opacity: 0.8;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #F9F9F9;
+    text-align: center;
+}
+
+    .hero-content h1 {
+        font-size: 5em;
+        margin-top: 20px;
+    }
+
+    .hero-content h3 {
+        font-size: 1.5em;
+    }
+
+.personal {
+    display: flex;
+    width: 60%;
+    margin: 200px auto;
+    color: #223A66;
+}
+
+    .personal h2, .doctors h2 {
+        font-size: 4em;
+        margin-right: 50px;
+    }
+
+    .personal p {
+        margin-left: 50px;
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+.personal-sign {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.card-wrap {
+    width: 60%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 22%;
+    margin: 20px;
+}
+
+    .card h3 {
+        color: #111111;
+        font-size: 2em;
+        margin: 1em 0;
+    }
+
+    .card p {
+        color: #223A66;
+        line-height: 1.8em;
+        font-size: 1.3em;
+    }
+
+.doctors {
+    width: 60%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .doctors h2 {
+        position: relative;
+        color: #223A66;
+    }
+
+        .doctors h2::after {
+            position: absolute;
+            top: 200px;
+            left: 0;
+            content: " ";
+            width: 80px;
+            height: 1px;
+            border-top: 10px solid #E12454;
+        }
+
+.achievements {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.achievements-img {
+    width: 20%;
+    margin: 50PX;
+}
+
+.spacialists {
+    width: 60%;
+    margin: 200px auto;
+}
+
+.spacialists-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spacialists h2 {
+    text-align: center;
+    color: #223A66;
+    font-size: 5em;
+    margin: 40px;
+    position: relative;
+}
+
+    .spacialists h2::after {
+        position: absolute;
+        top: 140px;
+        left: calc(50% - 40px);
+        content: " ";
+        width: 80px;
+        height: 1px;
+        border-top: 10px solid #E12454;
+    }
+
+.spacialists h4 {
+    text-align: center;
+    color: #223A66;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.8em;
+    width: 50%;
+    margin: 80px auto;
+}
+
+.testimonials {
+    display: flex;
+    width: 100%;
+}
+
+.testimonials-img {
+    width: 50%;
+}
+
+.testimonials-content h2 {
+    color: #223A66;
+    font-size: 5em;
+    margin: 40px;
+    position: relative;
+}
+
+    .testimonials-content h2::after {
+        position: absolute;
+        top: 140px;
+        left: 0;
+        content: " ";
+        width: 80px;
+        height: 1px;
+        border-top: 10px solid #E12454;
+    }
+
+.testimonials-content h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.8em;
+    color: #222222;
+    margin: 100px 0 0 40px;
+}
+
+.testimonials-content p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #223A66;
+    width: 50%;
+    margin: 40px 0 0 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+.footer-logo-content {
+    font-size: 1.5em;
+    color: #6F8BA7;
+    line-height: 1.8em;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 80px;
+}
+
+    .footer-nav h3 {
+        font-size: 2em;
+        margin-bottom: 100px;
+        position: relative;
+        color: #223A66;
+    }
+
+        .footer-nav h3::after {
+            position: absolute;
+            top: 80px;
+            left: 0;
+            content: " ";
+            width: 80px;
+            height: 1px;
+            border-top: 10px solid #E12454;
+        }
+
+    .footer-nav ul {
+        list-style-type: none;
+    }
+
+        .footer-nav ul li a {
+            color: #223A66;
+            line-height: 1.8em;
+        }
+
+.get-in-touch::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 1em;
+    color: #223A66;
+    margin-right: 20px;
+}
